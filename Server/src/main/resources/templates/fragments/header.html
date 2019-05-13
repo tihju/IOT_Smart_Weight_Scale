@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+</head>
+<body>
+
+<div class="container">
+    <div th:fragment="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" th:href="@{/}">Home</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" th:href="@{/clients}">Members</a></li>
+                        <li><a href="#" th:href="@{/client/register}">Register</a></li>
+                        <li><a href="#" th:href="@{/setup}">Set Up</a></li>
+                        <li><a href="#" th:href="@{/device}">Device Management</a></li>
+                        <li><a href="#" th:href="@{/info}">Information Reporting</a></li>
+                        <li><a href="#" th:href="@{/login}">Login</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+</div>
+</body>
+</html>
